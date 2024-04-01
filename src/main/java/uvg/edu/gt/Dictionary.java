@@ -35,7 +35,7 @@ class Dictionary {
 
     private String translate(BinaryTree<Association<String, String>> tree, String word) {
         if (tree == null) {
-            return word;
+            return "*"+word+"*";
         }
 
         String currentKey = tree.getData().getKey().toLowerCase();

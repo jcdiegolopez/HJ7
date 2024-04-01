@@ -31,8 +31,8 @@ public class DictionaryTest {
         assertEquals("tarea", dictionary.translate("homework"));
 
     
-        assertEquals("cat", dictionary.translate("cat"));
-        assertEquals("town", dictionary.translate("town"));
+        assertEquals("*cat*", dictionary.translate("cat"));
+        assertEquals("*town*", dictionary.translate("town"));
     }
 
     @Test

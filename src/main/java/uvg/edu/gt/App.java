@@ -13,14 +13,14 @@ public class App
 {
     public static void main(String[] args) {
         Dictionary dictionary = new Dictionary();
-        loadDictionary("hj7\\diccionario.txt", dictionary);
+        loadDictionary("diccionario.txt", dictionary);
 
         
         System.out.println("Recorrido in-order del árbol:");
         inOrderTraversal(dictionary);
 
         
-        translateFile("hj7\\texto.txt", dictionary);
+        translateFile("texto.txt", dictionary);
     }
 
     public static void loadDictionary(String filePath, Dictionary dictionary) {
