@@ -41,6 +41,6 @@ El programa implementará un diccionario Inglés – Español utilizando un árb
 **Facultad de Ingeniería**
 **Departamento de Ciencias de la Computación**
 **CC2003 – Algoritmos y Estructura de Datos**
-**Semestre I – 2020**
+**Semestre I – 2024**
 
 
